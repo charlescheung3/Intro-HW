@@ -1,0 +1,16 @@
+//Name:  Charles Cheung
+//Email:  charles.cheung24@myhunter.cuny.edu
+//Date:  April 21, 2020
+//Program in C++ that converts kilometers to miles
+
+#include <iostream>        //The built-in library for input/output
+using namespace std;       //The names of standard definitions
+
+int main()                 //C++ programs all have a main() function
+{
+	int km;
+	cout << "Please enter kilometers here:";
+	cin >> km;
+	float miles = 0.621371*km;
+	cout << miles;
+}

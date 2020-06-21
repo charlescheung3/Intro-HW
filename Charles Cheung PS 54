@@ -1,0 +1,20 @@
+
+//Name:  Charles Cheung
+//Email:  charles.cheung24@myhunter.cuny.edu
+//Date:  April 17, 2020
+//Prints "I love CUNY" 9 times, using a loop
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int i;   //The index variable for the loop
+
+  //Loop will repeat 9 times:
+  for (i = 0; i < 9; i++)
+  {
+    cout << "I love CUNY\n";
+  }
+  return 0;
+}

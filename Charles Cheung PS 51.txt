@@ -1,0 +1,12 @@
+#Charles Cheung
+#charles.cheung24@myhunter.cuny.edu
+#April 17, 2020
+#This sample program that loops from 0 up to 50
+
+ADDI $s2, $zero, 50
+ADDI $s0, $zero, 0 #set s0 to 0
+ADDI $s1, $zero, 5  #use to increment counter, $s0
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop

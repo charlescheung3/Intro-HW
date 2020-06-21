@@ -1,0 +1,6 @@
+#Charles Cheung
+#charles.cheung24@myhunter.cuny.edu
+#April 17, 2020
+#This script that counts the number of .csv files in current working directory.
+
+ls -l | grep ".csv"

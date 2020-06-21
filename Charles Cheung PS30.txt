@@ -1,0 +1,7 @@
+#Name: Charles Cheung
+#Email: charles.cheung24@myhunter.cuny.edu
+#Date: February 25, 2020
+#This shell program will print 'Hello, Hunter College!!!' in UNIX shell
+
+echo 'Hello, Hunter College!!!'
+

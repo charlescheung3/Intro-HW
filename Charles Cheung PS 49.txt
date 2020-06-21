@@ -1,0 +1,10 @@
+#Charles Cheung
+#charles.cheung24@myhunter.cuny.edu
+#April 17, 2020
+#Shell script:  creates directories for project
+
+mkdir projectFiles
+cd projectFiles
+mkdir images
+mkdir files
+mkdir results
